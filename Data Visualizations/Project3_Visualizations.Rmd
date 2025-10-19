@@ -40,7 +40,7 @@ library(zoo)
 
 ```{r}
 # Load the CSV
-trends_viz <- read_csv("data/trends_long.csv", show_col_types = FALSE)
+trends_viz <- read_csv("https://raw.githubusercontent.com/JDO-MSDS/Data-607-Project-3/refs/heads/main/Data%20Visualizations/trends_long.csv", show_col_types = FALSE)
 
 # Convert date column from numeric to Date
 trends_viz <- trends_viz %>%
